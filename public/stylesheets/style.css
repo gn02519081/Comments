@@ -2,7 +2,62 @@ body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
-
+img{
+	position:relative;
+	width:700px;
+	opacity:0.1;
+	
+}
 a {
   color: #00B7FF;
+}
+
+#Name{
+	width:100px;
+}
+#Comment{
+	width:200px;
+	height:30px; 
+}
+
+
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+    margin-bottom:10px;
+}
+
+.input-area{
+    font-size:30px;  
+    margin-bottom:15px;
+   position:relative; 
+   top: 20%;
+   left: 20%;  
+}
+
+.downpart{
+   size:30px;
+   position: absolute;
+   left:60%;
+   top:20%;
+}
+
+#commentpart{
+   font-size:30px;
+   position:absolute;
+   left:40%;
+ 
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }

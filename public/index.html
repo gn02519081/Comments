@@ -5,18 +5,34 @@
   <title>Comments!</title>
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <script src="javascripts/comments.js"></script>
+<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+
 </head>
 
 <body>
+<div id="header">
+	<h1>Put in your name and what you want to say!</h1>
+</div>
+
+<div class="input-area">
+
 <form id="commentForm" action="">
   <label for="name">Name: </label><input type="text" id="Name" placeholder="Name"><br>
   <label for="comment">comment: </label><input type="text" id="Comment" placeholder="Comment"><br>
 </form>
+</div>
 
-<button id="serialize">Serialize form values</button>
-<button id="getThem">Get Comments</button>
-<div id="json"></div>
-<div id="done"></div>
-<div id="comments"></div>
+<div class="downpart">
+	<button id="serialize">Serialize form values</button>
+	<button id="getThem">Get Comments</button>
+</div>
+<div class="testd">
+<div id="commentpart">
+	<div id="json"></div>
+	<div id="done"></div>
+
+	<div id="comments"></div>
+</div>
+</div>
 </body>
 </html>
